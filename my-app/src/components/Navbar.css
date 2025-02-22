@@ -1,0 +1,15 @@
+.navbar .navbar-brand {
+    font-size: 1.5rem !important;
+}
+
+.navbar .nav-link {
+    font-size: 1.25rem !important;
+}
+
+.m-auto{
+    align-items: center;
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0) !important
+}
