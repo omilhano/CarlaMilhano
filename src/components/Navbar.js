@@ -7,13 +7,12 @@ import "./Navbar.css";
 
 const NavbarComponents = () => {
     return (
-        <Navbar expand="lg" className="bg-transparent">
+        <Navbar expand="lg" className="bg-white" sticky="top">
             <Container>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center">
                     <Nav className="m-auto">
                         <Navbar.Brand as={Link} to="/">Carla Milhano</Navbar.Brand>
-                        <Nav.Link as={Link} to="/sobre-mim">Sobre mim</Nav.Link>
                         <Nav.Link as={Link} to="/mindful">Mindful walking</Nav.Link>
                         <Nav.Link as={Link} to="/eventos">Eventos</Nav.Link>
                         <Nav.Link as={Link} to="/psicologia">Psicologia</Nav.Link>

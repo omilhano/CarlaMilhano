@@ -1,6 +1,6 @@
 .colorized {
     background-color: #bbf4f4; /* Replace with your hex color */
-    min-height: 100vh; /* Make sure it covers the full viewport height */
+    min-height: 91vh; /* Make sure it covers the full viewport height */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,4 +15,27 @@ img{
 .first-section{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 10px;
+}
+
+.overlay{
+    display: flex;
+    flex-direction: column;
+}
+
+#text-1, #text-2{
+    font-family: "Open Sans", sans-serif;
+margin-bottom: 0;
+    word-break: break-word;
+    font-size: 3.5em;
+    margin-right: 20px;
+}
+
+#text-3{
+    font-family:"Open Sans", sans-serif;
+    font-size: 2em;
+    margin-left: 20px;
 }
