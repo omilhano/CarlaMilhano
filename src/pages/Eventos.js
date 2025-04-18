@@ -32,11 +32,11 @@ const Eventos = () => {
                     {eventos.map((evento) => (
                         <ListGroup.Item key={evento.id}>
                             <h4>{evento.name}</h4>
-                            <p><strong>Description:</strong> {evento.description}</p>
-                            <p><strong>Location:</strong> {evento.location}</p>
-                            <p><strong>Duration:</strong> {evento.duration} hours</p>
-                            <p><strong>Date:</strong> {evento.data}</p>
-                            <p><strong>Start Time:</strong> {evento.startTime}</p>
+                            <p><strong>Descrição:</strong> {evento.description}</p>
+                            <p><strong>Localização:</strong> {evento.location}</p>
+                            <p><strong>Duração:</strong> {evento.duration} hours</p>
+                            <p><strong>Data:</strong> {evento.data}</p>
+                            <p><strong>Hora de começo:</strong> {evento.startTime}</p>
                         </ListGroup.Item>
                     ))}
                 </ListGroup>

@@ -47,6 +47,8 @@
     font-family: "Open Sans", sans-serif;
     font-size: 1.5em;
     margin-left: 20px;
+    /* TODO colocar no fundo da primeira secção
+    como dois elementos lado a lado */
 }
 
 .whatsapp-button {

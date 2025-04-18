@@ -15,7 +15,7 @@ const Introduction = () => {
                 </button>
             </div>
             <p id='about-me-text'>
-                Reconheço-me na frase de Jung, “Conheça todas as teorias, domine todas as técnicas mas ao tocar uma alma humana, seja apenas, outra alma humana.” <br></br>Entre as minhas mais doces recordações de infância moram os piqueniques em família, na natureza, aos fins de semana.<br></br> Tenho entranhado, o cheiro a pinheiros e a terra, o esvoaçar livre dos cabelos, com a brisa, as brincadeiras, os pés descalços, o embalo nas redes à sombra das árvores, as músicas dos pássaros e das folhas. <br></br>Sou Psicóloga Clínica e Psicoterapeuta, desde 2005, com formação pós-graduada em Terapia comportamental e cognitiva. No contexto clínico, trabalho muito com as emoções e a partir delas. <br></br>A minha abordagem é sobretudo integrativa, procurando adoptar as diversas técnicas e métodos, em função do cliente. Facilito, também, o desenvolvimento de pessoas, equipas e organizações há mais de 25 anos, como consultora, formadora e coach.
+                Reconheço-me na frase de Jung, “Conheça todas as teorias, domine todas as técnicas mas ao tocar uma alma humana, seja apenas, outra alma humana.” <br></br>Entre as minhas mais doces recordações de infância moram os piqueniques em família, na natureza, aos fins de semana.<br></br> Tenho entranhado o cheiro a pinheiros e a terra, o esvoaçar livre dos cabelos, com a brisa, as brincadeiras, os pés descalços, o embalo nas redes à sombra das árvores, as músicas dos pássaros e das folhas. <br></br>Sou Psicóloga Clínica e Psicoterapeuta, desde 2005.
             </p>
             <h1>Sobre a minha formação</h1>
             <p id='about-me-text'>

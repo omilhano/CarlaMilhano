@@ -41,7 +41,7 @@ const Mindfulwalking = () => {
                 suas dores e ainda as suas canções.
             </p>
             <p>
-                Também é quando silencio, que escuto melhor os outros. Convido-me a uma escuta mais atenta ao meu corpo e
+                Também é quando silencio que escuto melhor os outros. Convido-me a uma escuta mais atenta ao meu corpo e
                 emoções e é no silêncio que escuto a minha respiração, a minha alma a vibrar, a tremer de medo ou a
                 render-se de encanto.
             </p>

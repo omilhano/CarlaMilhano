@@ -18,7 +18,7 @@ const NavbarComponents = () => {
                         <Nav.Link as={Link} to="/eventos">Eventos</Nav.Link>
                         <Nav.Link as={Link} to="/contactos">Contactos</Nav.Link>
                         <Nav.Link id="whatsapp-link"
-                            href="https://wa.me/351963497479?text=Olá%20Carla%2C%20gostaria%20de%20marcar%20uma%20consulta."
+                            href="https://wa.me/351962935461?text=Olá%20Carla%2C%20gostaria%20de%20marcar%20uma%20consulta."
                             target="_blank"
                             rel="noopener noreferrer"
                         >

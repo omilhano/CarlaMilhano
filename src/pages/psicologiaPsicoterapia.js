@@ -5,7 +5,7 @@ const PsicologiaPsicoterapia = () => {
     return (
         <div id='psicologia-psicoterapia'>
             <h1>Consultas de psicologia e psicoterapia</h1>
-            <h2>Consultório, ao Ar livre na natureza, e online</h2>
+            <h2>Em Consultório | Na natureza | Online</h2>
             <h3 id='psicologia-psicoterapia-text-title'>
                 Têm o objetivo de:
             </h3>
@@ -16,7 +16,7 @@ const PsicologiaPsicoterapia = () => {
                 </li>
             </ul>
             <h3>Abordagens:</h3>
-            <p>Psicoterapia Cognitiva, comportamental e integrativa
+            <p>Psicoterapia cognitiva, comportamental e integrativa
             </p>
             <p>Técnicas psicoterapêuticas de 1ª, 2ª e 3ª geração
             </p>
