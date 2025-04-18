@@ -13,11 +13,10 @@ const NavbarComponents = () => {
                 <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center">
                     <Nav className="m-auto">
                         <Navbar.Brand as={Link} to="/">Carla Milhano</Navbar.Brand>
-                        <Nav.Link as={Link} to="/mindful">Mindful walking</Nav.Link>
+                        <Nav.Link as={Link} to="/psicologiaepsicoterapia">Consultas de Psicologia</Nav.Link>
+                        <Nav.Link as={Link} to="/mindfulwalking">Passeios meditativos</Nav.Link>
                         <Nav.Link as={Link} to="/eventos">Eventos</Nav.Link>
-                        <Nav.Link as={Link} to="/psicologia">Psicologia</Nav.Link>
-                        <Nav.Link as={Link} to="/agenda">Agenda</Nav.Link>
-                        <Nav.Link as={Link} to="/para-ler">Para ler</Nav.Link>
+                        <Nav.Link as={Link} to="/contactos">Contactos</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

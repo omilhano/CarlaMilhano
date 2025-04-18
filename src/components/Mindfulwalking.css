@@ -1,0 +1,48 @@
+#caminhadas {
+    margin-top: 3.5%;
+}
+
+#quotation {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 4%;
+}
+
+#quotation cite {
+    font-style: italic;
+    font-weight: normal;
+}
+
+.quote-source {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.9em;
+    display: block;
+    margin-top: 0.5em;
+}
+
+.link-with-space {
+    margin-left: 0.25em;
+    /* space around */
+    margin-right: 0.25em;
+}
+
+
+/* .img-caminhadas {
+    width: 70%;
+    height: auto;
+    margin-top: 2%;
+} */
+
+.carousel-caminhadas {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-caminhadas {
+    max-height: 450px;
+    object-fit: cover;
+}
