@@ -10,18 +10,48 @@
     align-items: center;
 }
 
+@keyframes blink {
+
+    0%,
+    90%,
+    100% {
+        opacity: 1;
+    }
+
+    95% {
+        opacity: 0;
+    }
+}
+
+@keyframes double-blink {
+
+    0%,
+    10%,
+    20%,
+    100% {
+        opacity: 1;
+    }
+
+    5%,
+    15% {
+        opacity: 0;
+    }
+}
+
 #whatsapp-link {
     background-color: #25D366;
-    /* WhatsApp green */
     color: white;
-    padding: 8px 8px;
+    padding: 5px 10px;
     border-radius: 8px;
     font-weight: 500;
-    transition: background-color 0.3s ease;
+    transition: background-color 2s ease;
     text-decoration: none;
+    animation: double-blink 5s infinite;
 }
 
 #whatsapp-link:hover {
     background-color: #1ebe57;
     color: white;
+    animation: none;
+    /* stops animation on hover */
 }

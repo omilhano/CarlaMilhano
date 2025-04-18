@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { db } from "../firebase"; // Adjust path if needed
 import { collection, getDocs } from "firebase/firestore";
-import { Container } from "react-bootstrap";
+import { Container, ListGroup } from "react-bootstrap";
 
 const Eventos = () => {
     const [eventos, setEventos] = useState([]);
@@ -28,14 +28,18 @@ const Eventos = () => {
         <Container>
             <h3>Eventos</h3>
             {eventos.length > 0 ? (
-                <ul>
+                <ListGroup>
                     {eventos.map((evento) => (
-                        <li key={evento.id}>
-                            <h4>{evento.Name}</h4>
-                            <p>{evento.descrição}</p>
-                        </li>
+                        <ListGroup.Item key={evento.id}>
+                            <h4>{evento.name}</h4>
+                            <p><strong>Description:</strong> {evento.description}</p>
+                            <p><strong>Location:</strong> {evento.location}</p>
+                            <p><strong>Duration:</strong> {evento.duration} hours</p>
+                            <p><strong>Date:</strong> {evento.data}</p>
+                            <p><strong>Start Time:</strong> {evento.startTime}</p>
+                        </ListGroup.Item>
                     ))}
-                </ul>
+                </ListGroup>
             ) : (
                 <p>No eventos found.</p>
             )}
