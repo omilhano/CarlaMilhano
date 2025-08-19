@@ -9,6 +9,9 @@
     justify-content: center;
     padding: 20px;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 #landing-page-photo {
     width: 50%;

@@ -4,6 +4,10 @@ import Carla from "../images/CarlaMilhano.jpg";
 import CarlaMilhano from "../images/nobg.png";
 import "./MainPage.css";
 import Introduction from "../components/introduction";
+import PsicologiaPsicoterapia from "./psicologiaPsicoterapia";
+import MindfulWalking from "./Mindfulwalking";
+import Eventos from "./Eventos"; 
+// import Contactos from "./contactos";
 
 const LandingPage = () => {
     return (
@@ -21,7 +25,14 @@ const LandingPage = () => {
             <p id="text-3">Especialista em psicologia clínica e da saúde</p>
             <p id="text-3">Especialista em Psicologia social e das organizações</p>
         </div>
-            <Introduction /></>
+            <Introduction />
+            <br></br>
+            <PsicologiaPsicoterapia />
+            <br></br>
+            <MindfulWalking />
+            <br></br>
+            <Eventos /></>
+
     );
 }
 

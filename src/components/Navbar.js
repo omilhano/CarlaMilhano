@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -12,19 +11,19 @@ const NavbarComponents = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center">
                     <Nav className="m-auto">
-                        <Navbar.Brand as={Link} to="/">Carla Milhano</Navbar.Brand>
-                        <Nav.Link as={Link} to="/psicologiaepsicoterapia">Consultas de Psicologia</Nav.Link>
-                        <Nav.Link as={Link} to="/mindfulwalking">Passeios meditativos</Nav.Link>
-                        <Nav.Link as={Link} to="/eventos">Eventos</Nav.Link>
-                        <Nav.Link as={Link} to="/contactos">Contactos</Nav.Link>
-                        <Nav.Link id="whatsapp-link"
+                        <Navbar.Brand href="#top">Carla Milhano</Navbar.Brand>
+                        <Nav.Link href="#psicologia-psicoterapia">Consultas de Psicologia</Nav.Link>
+                        <Nav.Link href="#mindfulwalking">Passeios meditativos</Nav.Link>
+                        <Nav.Link href="#eventos">Eventos</Nav.Link>
+                        <Nav.Link href="#contactos">Contactos</Nav.Link>
+                        <Nav.Link
+                            id="whatsapp-link"
                             href="https://wa.me/351962935461?text=Olá%20Carla%2C%20gostaria%20de%20marcar%20uma%20consulta."
                             target="_blank"
                             rel="noopener noreferrer"
                         >
                             Marcar Consulta
                         </Nav.Link>
-
                     </Nav>
                 </Navbar.Collapse>
             </Container>

@@ -7,7 +7,7 @@ import Caminhadas2 from "../images/caminhada-2.webp";
 
 const Mindfulwalking = () => {
     return (
-        <Container>
+        <Container id="mindfulwalking">
             <h3 id="caminhadas">Passeios meditativos - Mindful walking</h3>
             <h3 id="quotation">
                 <cite>"A cada passo a Terra cura-nos, e com cada passo nós curamos a Terra"</cite>
