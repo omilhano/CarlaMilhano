@@ -7,7 +7,7 @@ import Introduction from "../components/introduction";
 import PsicologiaPsicoterapia from "./psicologiaPsicoterapia";
 import MindfulWalking from "./Mindfulwalking";
 import Eventos from "./Eventos"; 
-// import Contactos from "./contactos";
+import Contacts from "./Contacts";
 
 const LandingPage = () => {
     return (
@@ -25,14 +25,15 @@ const LandingPage = () => {
             <p id="text-3">Especialista em psicologia clínica e da saúde</p>
             <p id="text-3">Especialista em Psicologia social e das organizações</p>
         </div>
-            <Introduction />
+            <Introduction className="section-spacing" />
             <br></br>
-            <PsicologiaPsicoterapia />
+            <PsicologiaPsicoterapia className="section-spacing"/>
             <br></br>
-            <MindfulWalking />
+            <MindfulWalking className="section-spacing"/>
             <br></br>
-            <Eventos /></>
-
+            <Eventos className="section-spacing"/>
+            <br></br>
+            <Contacts className="section-spacing"/></>
     );
 }
 

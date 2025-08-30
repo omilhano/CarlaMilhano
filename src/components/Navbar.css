@@ -6,6 +6,10 @@
     font-size: 1.25rem !important;
 }
 
+.navbar-brand {
+    cursor: pointer;
+}
+
 .m-auto {
     align-items: center;
 }

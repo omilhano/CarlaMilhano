@@ -9,6 +9,11 @@
     justify-content: center;
     padding: 20px;
 }
+
+.section-spacing {
+  margin: 60px 0; /* space above and below */
+}
+
 html{
     scroll-behavior: smooth;
 }
