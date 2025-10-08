@@ -8,7 +8,7 @@ import PsicologiaPsicoterapia from './pages/psicologiaPsicoterapia';
 import Eventos from './pages/Eventos';
 import Admin from './pages/Admin';
 import Contacts from './pages/Contacts';
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   return (
