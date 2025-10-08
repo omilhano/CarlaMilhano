@@ -24,6 +24,7 @@ function App() {
           <Route path={process.env.REACT_APP_SECRET_ROUTE} element={<Admin />} />
           
         </Routes>
+        <Analytics />
       </div>
     </Router>
   );
