@@ -6,20 +6,29 @@ import "./Navbar.css";
 
 const NavbarComponents = () => {
 
-    const handleScroll = (id) => {
-        const element = document.getElementById(id);
-        if (!element) return;
-        const offset = 80; // height of navbar in px
-        const bodyRect = document.body.getBoundingClientRect().top;
-        const elementRect = element.getBoundingClientRect().top;
-        const elementPosition = elementRect - bodyRect;
-        const offsetPosition = elementPosition - offset;
+const handleScroll = (id) => {
+    const element = document.getElementById(id);
+    if (!element) return;
 
-        window.scrollTo({
-            top: offsetPosition,
-            behavior: "smooth"
-        });
-    };
+    const offset = 80; // height of navbar in px
+    const bodyRect = document.body.getBoundingClientRect().top;
+    const elementRect = element.getBoundingClientRect().top;
+    const elementPosition = elementRect - bodyRect;
+    const offsetPosition = elementPosition - offset;
+
+    window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth"
+    });
+
+    const navbarToggler = document.querySelector('.navbar-toggler');
+    const navbarCollapse = document.querySelector('.navbar-collapse.show');
+
+    if (navbarToggler && navbarCollapse) {
+        navbarToggler.click(); // triggers Bootstrap's collapse toggle
+    }
+};
+
 
     return (
         <Navbar expand="lg" className="bg-white" sticky="top">
