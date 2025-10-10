@@ -4,6 +4,8 @@ import Carousel from "react-bootstrap/Carousel";
 import "../components/Mindfulwalking.css";
 import Caminhadas1 from "../images/caminhada-1.webp";
 import Caminhadas2 from "../images/caminhada-2.webp";
+import { Button } from "react-bootstrap";
+import { JournalBookmarkFill } from "react-bootstrap-icons";
 
 const Mindfulwalking = () => {
     return (
@@ -45,12 +47,23 @@ const Mindfulwalking = () => {
                 Ao caminhar de forma lenta, sintonizando os passos com a respiração, permito-me desacelerar, confiar, relaxar e sintonizar com o meu ritmo primordial.
             </p>
             <p className="mindful-paragraph">
-                O meu Projeto de experiências de atenção plena{" "}
+                O meu Projeto de experiências de atenção plena na natureza,{" "}
                 <a href="https://www.instagram.com/mindfulness.engageyoursenses?igsh=bDc4djRwaHdwcWVt" target="_blank" rel="noopener noreferrer" className="link-with-space">
                     mindfulness.engageyoursenses
                 </a>{" "}
                 nasceu da vontade de partilhar, com outros, este silêncio e experiências imersivas na natureza.
             </p>
+            <br></br>
+            <Button
+                id="whatsapp-link"
+                href="https://wa.me/351962935461?text=Olá%20Carla%2C%20gostaria%20de%20marcar%20uma%20consulta."
+                target="_blank"
+                rel="noopener noreferrer"
+                // no border and background color
+                style={{ Border: "none" }}
+            >
+                Marcar Consulta
+            </Button>
         </Container>
     );
 };

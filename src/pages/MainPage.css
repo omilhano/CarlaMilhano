@@ -11,10 +11,11 @@
 }
 
 .section-spacing {
-  margin: 60px 0; /* space above and below */
+    margin: 60px 0;
+    /* space above and below */
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -59,27 +60,69 @@ html{
     como dois elementos lado a lado */
 }
 
-.whatsapp-button {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 10px 20px;
-    background-color: #25D366;
-    color: white;
-    font-weight: bold;
-    border-radius: 8px;
-    text-decoration: none;
-    font-size: 16px;
-    transition: background-color 0.3s ease;
+@keyframes blink {
+
+    0%,
+    90%,
+    100% {
+        opacity: 1;
+    }
+
+    95% {
+        opacity: 0;
+    }
 }
 
-.whatsapp-button:hover {
-    background-color: #1ebe5d;
+@keyframes double-blink {
+
+    0%,
+    10%,
+    20%,
+    100% {
+        opacity: 1;
+    }
+
+    5%,
+    15% {
+        opacity: 0;
+    }
+}
+
+#whatsapp-link {
+    background-color: #25D366;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: background-color 2s ease;
+    text-decoration: none;
+    animation: double-blink 5s infinite;
+}
+
+#whatsapp-link:hover {
+    background-color: #1ebe57;
+    color: white;
+    animation: none;
+    /* stops animation on hover */
 }
 
 
 @media screen and (max-width: 990px) {
+    .colorized {
+        background-color: #bbf4f4;
+        /* Replace with your hex color */
+        height: calc(100vh - 62px);
+        /* Make sure it covers the full viewport height */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        padding: 20px;
+    }
+
     img {
-        width: 70%;
+        width: 95% !important;
+        height: auto !important;
     }
 
     .first-section {

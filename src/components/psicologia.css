@@ -1,4 +1,4 @@
-#psicologia-psicoterapia{
+#psicologia-psicoterapia {
     margin-top: 4%;
 }
 
@@ -10,6 +10,7 @@
 #psicologia-psicoterapia-text-title {
     margin-top: 3.25% !important;
 }
+
 #psicologia-psicoterapia h3 {
     margin-top: 2%;
 }
@@ -39,4 +40,31 @@
 
 .flex-list li:hover {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+#line-break {
+    display: block;
+}
+
+
+@media screen and (max-width: 600px) {
+    #psicologia-psicoterapia-text {
+        justify-content: center;
+    }
+
+    #psicologia-psicoterapia-text-span {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        color: #555;
+    }
+
+    #psicologia-psicoterapia-text-title {
+        padding-top: 15px;
+    }
+
+    .line-break {
+        display: block;
+        margin-left: 0;
+        /* reset spacing */
+    }
 }

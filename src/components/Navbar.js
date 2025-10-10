@@ -29,6 +29,7 @@ const NavbarComponents = () => {
                     <Nav className="m-auto">
                         <Navbar.Brand onClick={() => handleScroll("landing")}>Carla Milhano</Navbar.Brand>
                         <Nav.Link onClick={() => handleScroll("psicologia-psicoterapia")}>Consultas de Psicologia</Nav.Link>
+                        <Nav.Link onClick={() => handleScroll("skill-check")}>Sobre Mim</Nav.Link>
                         <Nav.Link onClick={() => handleScroll("mindfulwalking")}>Passeios meditativos</Nav.Link>
                         <Nav.Link onClick={() => handleScroll("eventos")}>Eventos</Nav.Link>
                         <Nav.Link onClick={() => handleScroll("contacts")}>Contactos</Nav.Link>

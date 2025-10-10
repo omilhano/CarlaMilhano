@@ -51,3 +51,25 @@ h1 {
     margin-bottom: 20px;
     font-weight: 600;       /* subtle emphasis without heavy styling */
 }
+
+@media screen and (max-width: 600px) {
+    #skill-check {
+        width: 90%;
+        margin: 30px auto;
+        text-align: center;
+    }
+
+    #header h1 {
+        font-size: 1.5rem;
+    }
+
+    .about-me-paragraph {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+    
+    #minha_formação {
+        padding-top: 20px;
+        font-size: 1.5rem;
+    }
+}
