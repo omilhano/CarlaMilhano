@@ -1,7 +1,7 @@
 #mindfulwalking {
     max-width: 900px;
     margin: 60px auto;
-    text-align: justify; /* fully justified paragraphs */
+    text-align: center; /* fully justified paragraphs */
     padding: 0 15px; /* small horizontal padding for mobile */
 }
 
