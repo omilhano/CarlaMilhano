@@ -75,10 +75,14 @@ const Mindfulwalking = () => {
 
             {/* Paragraphs with stagger effect */}
             {[
-                `Gosto de caminhar em silêncio pela natureza...`,
-                `Também é quando silencio que escuto melhor os outros...`,
-                `Ao caminhar de forma lenta...`,
-                `O meu Projeto de experiências de atenção plena na natureza...`
+                `Gosto de caminhar em silêncio pela natureza. Sinto que o silêncio é uma forma de a honrar. Com este observar atento, aprendo com os seus ciclos, escuto melhor os seus ensinamentos, as suas preces, até as suas dores e ainda as suas canções.`,
+                `Também é quando silencio que escuto melhor os outros. Convido-me a uma escuta mais atenta ao meu corpo e emoções, e é no silêncio que escuto a minha respiração, a minha alma a vibrar, a tremer de medo ou a render-se de encanto.`,
+                `Ao caminhar de forma lenta, sintonizando os passos com a respiração, permito-me desacelerar, confiar, relaxar e sintonizar com o meu ritmo primordial.`,
+                `  O meu Projeto de experiências de atenção plena na natureza,{" "}
+                <a href="https://www.instagram.com/mindfulness.engageyoursenses?igsh=bDc4djRwaHdwcWVt" target="_blank" rel="noopener noreferrer" className="link-with-space">
+                    mindfulness.engageyoursenses
+                </a>{" "}
+                nasceu da vontade de partilhar, com outros, este silêncio e experiências imersivas na natureza.`
             ].map((text, index) => (
                 <motion.p
                     key={index}

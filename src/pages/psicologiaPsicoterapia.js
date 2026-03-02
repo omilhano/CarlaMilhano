@@ -39,17 +39,17 @@ const PsicologiaPsicoterapia = () => {
                     <h3 id="psicologia-psicoterapia-text-title">
                         Têm o objetivo de:
                     </h3>
-
                     <span id='psicologia-psicoterapia-text-span'>
-                        Fornecer apoio psicológico...
+                        Fornecer apoio psicológico a adultos com dificuldades gerais e específicas
+                        e/ou promover o bem estar integral, psicológico e emocional da pessoa.
                     </span>
-
+                    <br></br>
+                    <br></br>
+                    <span id='psicologia-psicoterapia-text-span'>
+                        Promover todo o potencial interno e recursos para experienciar viver de forma
+                        mais plena, presente e feliz.
+                    </span>
                     <br /><br />
-
-                    <span id='psicologia-psicoterapia-text-span'>
-                        Promover todo o potencial interno...
-                    </span>
-
                     <h3>Abordagens:</h3>
                     <p>Psicoterapia cognitiva, comportamental e integrativa</p>
                     <p>Técnicas psicoterapêuticas de 1ª, 2ª e 3ª geração</p>
