@@ -8,6 +8,7 @@
     "cra-template": "1.2.0",
     "firebase": "^11.6.0",
     "fix-react2shell-next": "^1.0.18",
+    "framer-motion": "^12.34.3",
     "react": "^19.0.0",
     "react-bootstrap": "^2.10.9",
     "react-bootstrap-icons": "^1.11.5",
