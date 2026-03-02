@@ -20,17 +20,6 @@ const fadeUp = {
     }
 };
 
-const fadeSoft = {
-    hidden: { opacity: 0 },
-    visible: {
-        opacity: 1,
-        transition: {
-            duration: 1.2,
-            ease: "easeOut"
-        }
-    }
-};
-
 const Mindfulwalking = () => {
     return (
         <Container id="mindfulwalking">
