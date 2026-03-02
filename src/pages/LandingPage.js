@@ -32,7 +32,7 @@ const LandingPage = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 // no border and background color
-                style={{ Border: "none" }}
+                style={{ border: "none" }}
             >
                 Marcar Consulta
             </Button>
