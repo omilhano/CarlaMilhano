@@ -24,7 +24,8 @@ const LandingPage = () => {
 
                 </div>
             </Container>
-            <p id="text-3">Especialista em psicologia clínica e da saúde</p>
+            <p id="text-3">Psicoterapia cognitiva comportamental e integrativa</p>
+            <p id="text-3">Especialista em psicoterapia corporal.</p>
             {/* Button whatsapp reference */}
             <Button
                 id="whatsapp-link"
